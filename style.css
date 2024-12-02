@@ -128,7 +128,7 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
     z-index: 1;
 }
-.titlePage > *, .about > *, .music > *, .music_collab > *, .acting > *, .body > *{
+.titlePage > *, .about > *, .music > *, .music_collab > *, .acting > *, body > *{
     position: relative;
     z-index: 2;
 }
