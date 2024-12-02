@@ -249,8 +249,8 @@ a:hover {
 
     .about_content{
         width: 90%;
-        font-size:smaller;
-        margin-top: 20%;
+        font-size:small;
+        /* margin-top: 20%; */
     }
 
     .inside_music{
