@@ -118,7 +118,7 @@ a:hover {
     /* text-align: center; */
 }
 
-.titlePage::before, .about::before, .music::before, .music_collab::before, .acting::before{
+.titlePage::before, .about::before, .music::before, .music_collab::before, .acting::before, body::before{
     content: '';
     position: absolute;
     top: 0;
@@ -128,7 +128,7 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
     z-index: 1;
 }
-.titlePage > *, .about > *, .music > *, .music_collab > *, .acting > *{
+.titlePage > *, .about > *, .music > *, .music_collab > *, .acting > *, .body > *{
     position: relative;
     z-index: 2;
 }
